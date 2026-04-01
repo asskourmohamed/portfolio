@@ -1,80 +1,121 @@
-.contact-form{
-    padding: 0 3rem 0 3rem;
-    display: flex;
-    height: 80vh;
-    margin-top: 4rem;
-      /* scroll */
-  padding-top: 3rem;
-}
-
-.c-left{
+.c-left {
     text-align: center !important;
     padding-top: 25px;
-    color: white !important;
+    color: #1a1a1a !important;
 }
 
-.c-right{
+.c-left h1 {
+    color: #1a1a1a !important;
+    font-weight: 600;
+}
+
+.c-right {
     display: flex;
     justify-content: center;
     position: relative;
     flex: 1;
 }
 
-.c-right>form
-{
+.c-right > form {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     align-items: center;
-    
 }
 
-.c-right .user{
+.c-right .user {
     width: 24rem;
     height: 3rem;
     padding: 0.3em;
     outline: none;
-    border: 2px solid #40008a;
+    border: 2px solid #b8860b;
     border-radius: 8px;
     font-size: 19px;
-    color: white   
+    color: #1a1a1a;
+    background-color: rgba(255, 252, 220, 0.8);
+    transition: 0.3s ease;
 }
 
-.c-right .user:hover{
-    box-shadow: 0 0 9px #7500fa;
+.c-right .user:focus {
+    border-color: #b8860b;
+    box-shadow: 0 0 9px rgba(184, 134, 11, 0.4);
+    background-color: #fffde8;
 }
 
-input{
-    background-color: var(--purple)
-}
-textarea{
-    height: 5rem!important;
-    background-color: var(--purple)
+.c-right .user:hover {
+    box-shadow: 0 0 9px rgba(184, 134, 11, 0.35);
 }
 
-.done{
-    font-size: 19px;
-    color: green;
-}
-.not-done{
-    font-size: 19px;
-    color: red;
+.c-right .user::placeholder {
+    color: #a08030;
+    opacity: 0.8;
 }
 
-.c-blur1{
-    top: 1rem;
-    left: 8rem;
+input {
+    background-color: rgba(255, 252, 220, 0.8);
 }
 
+textarea {
+    height: 5rem !important;
+    background-color: rgba(255, 252, 220, 0.8);
+    resize: vertical;
+}
+
+.button {
+    background-color: #b8860b !important;
+    border-color: #b8860b !important;
+    color: #fff !important;
+    padding: 0.5rem 2rem !important;
+    font-size: 1rem !important;
+    border-radius: 8px !important;
+    transition: 0.3s ease !important;
+}
+
+.button:hover {
+    background-color: #9a7009 !important;
+    border-color: #9a7009 !important;
+    transform: translateY(-2px);
+}
+
+.button:disabled {
+    background-color: #d4b86a !important;
+    border-color: #d4b86a !important;
+    cursor: not-allowed;
+}
+
+.done {
+    font-size: 16px;
+    color: #2e7d32;
+    background-color: rgba(46, 125, 50, 0.08);
+    border: 1px solid rgba(46, 125, 50, 0.3);
+    border-radius: 8px;
+    padding: 10px 16px;
+    text-align: center;
+    width: 24rem;
+}
+
+.not-done {
+    font-size: 16px;
+    color: #c62828;
+    background-color: rgba(198, 40, 40, 0.08);
+    border: 1px solid rgba(198, 40, 40, 0.3);
+    border-radius: 8px;
+    padding: 8px 16px;
+    text-align: center;
+    width: 24rem;
+}
+.done:empty {
+    display: none;
+}
+
+.not-done:empty {
+    display: none;
+}
 @media screen and (max-width: 480px) {
-    .contact-form{
-        padding: 0;
-        flex-direction: column;
-        gap: 5rem;
-        height: 40rem;
-    }
-    .c-right .user{
+    .c-right .user {
         width: 16rem;
     }
-
+    .done, .not-done {
+        width: 16rem;
+    }
 }
