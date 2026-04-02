@@ -231,7 +231,6 @@ html {
     100% { transform: rotate(0deg);  }
   }
 
-  /* Particles stay behind everything */
   #tsparticles {
     position: fixed !important;
     background-repeat: no-repeat !important;
@@ -245,7 +244,6 @@ html {
     padding-top: 80px !important;
   }
   
-  /* FIX: z-index positif pour que le contenu soit visible au-dessus des particules */
   .home-section {
     position: relative;
     z-index: 1;
@@ -466,6 +464,7 @@ html {
     z-index: 1;
   }
   
+  /* FIX: border avec couleur + pas de color override → icônes gardent leurs couleurs */
   .tech-icons {
     font-size: 4.5em !important;
     margin: 15px !important;
@@ -479,7 +478,7 @@ html {
     box-shadow: 4px 5px 4px 3px rgba(184, 134, 11, 0.25) !important;
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
-    color: #4a3800 !important;
+    /* no color property → icons keep their original brand colors */
   }
   
   @media (max-width: 767px) {
@@ -759,4 +758,14 @@ html {
 
   .fork-btn-inner::after {
     display: none !important;
+  }
+
+  /* --------- */
+  /* Contact spans fix */
+  /* --------- */
+  .done:empty {
+    display: none;
+  }
+  .not-done:empty {
+    display: none;
   }
