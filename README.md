@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌐 Mohamed Asskour — Developer Portfolio
+#  Mohamed ASSKOUR — Developer Portfolio
 
 ### Built with React.js · Cloud & DevOps · AI & IoT
 
