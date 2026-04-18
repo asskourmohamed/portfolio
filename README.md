@@ -4,8 +4,8 @@
 
 ### Built with React.js · Cloud & DevOps · AI & IoT
 
-[![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-Visit_Portfolio-b8860b?style=for-the-badge)](https://your-portfolio-url.vercel.app/)
-[![Video Demo](https://img.shields.io/badge/🎬_Video_Demo-Watch_Now-red?style=for-the-badge)](https://your-video-link-here)
+[![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-Visit_Portfolio-b8860b?style=for-the-badge)](https://asskour-mohamed.vercel.app/)
+[![Video Demo](https://img.shields.io/badge/🎬_Video_Demo-Watch_Now-red?style=for-the-badge)](https://drive.google.com/file/d/1PWeB4W7pESNJHSOxAoPgUHH4DH82lrFm/view?usp=sharing)
 
 </div>
 
@@ -32,12 +32,12 @@
 <table align="center">
   <thead align="center">
     <tr>
-      <td><b>📊 Project Stats</b></td>
-      <td><b>🌟 Stars</b></td>
-      <td><b>🍴 Forks</b></td>
-      <td><b>🐛 Issues</b></td>
-      <td><b>🔔 Open PRs</b></td>
-      <td><b>🔕 Closed PRs</b></td>
+      <td><b> Project Stats</b></td>
+      <td><b> Stars</b></td>
+      <td><b> Forks</b></td>
+      <td><b> Issues</b></td>
+      <td><b> Open PRs</b></td>
+      <td><b> Closed PRs</b></td>
     </tr>
   </thead>
   <tbody>
@@ -54,35 +54,35 @@
 
 ---
 
-## 👨‍💻 About This Portfolio
+##  About This Portfolio
 
 This is my **personal developer portfolio** built with **React.js**, showcasing my skills, projects, and experience as a second-year engineering student at **INPT (National Institute of Posts and Telecommunications)**, specializing in **Ubiquitous and Distributed Systems — Cloud & IoT**.
 
 The portfolio reflects my passion for:
-- ☁️ **Cloud Computing & DevOps** — AWS, GCP, Docker, GitLab CI/CD
-- 🤖 **Artificial Intelligence** — Machine Learning, Deep Learning, Computer Vision
-- 🌐 **Full-Stack Development** — MERN Stack, Django, REST APIs
-- 📡 **IoT & Distributed Systems** — OpenStack, VMware, Networking
+-  **Cloud Computing & DevOps** — AWS, GCP, Docker, GitLab CI/CD
+-  **Artificial Intelligence** — Machine Learning, Deep Learning, Computer Vision
+-  **Full-Stack Development** — MERN Stack, Django, REST APIs
+-  **IoT & Distributed Systems** — OpenStack, VMware, Networking
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
-| 📖 **Multi-Page Layout** | Home, Skillset, Projects, Resume, Contact |
-| 🎨 **Custom Theme** | Cream & gold design — unique, warm, professional |
-| 🧬 **Molecule Particles** | Animated network background via tsParticles |
-| 🛠️ **Tech Stack Icons** | Color-accurate brand icons for all technologies |
-| 📁 **Project Cards** | Image, category badge, tech tags, modal detail view |
-| 📄 **Live Resume** | Embedded PDF viewer + download button |
-| 📬 **Contact Form** | EmailJS integration — messages sent directly to inbox |
-| 📱 **Fully Responsive** | Mobile, tablet, and desktop ready |
-| ⚡ **Smooth UX** | Preloader, scroll-to-top, hover animations |
+|  **Multi-Page Layout** | Home, Skillset, Projects, Resume, Contact |
+|  **Custom Theme** | Cream & gold design — unique, warm, professional |
+|  **Molecule Particles** | Animated network background via tsParticles |
+|  **Tech Stack Icons** | Color-accurate brand icons for all technologies |
+|  **Project Cards** | Image, category badge, tech tags, modal detail view |
+|  **Live Resume** | Embedded PDF viewer + download button |
+|  **Contact Form** | EmailJS integration — messages sent directly to inbox |
+|  **Fully Responsive** | Mobile, tablet, and desktop ready |
+|  **Smooth UX** | Preloader, scroll-to-top, hover animations |
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 portfolio/
@@ -110,7 +110,7 @@ portfolio/
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -123,7 +123,7 @@ portfolio/
 
 ---
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 > You need **Node.js** and **Git** installed globally on your machine.
 
@@ -144,54 +144,11 @@ npm start
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page reloads automatically on file changes.
 
----
 
-## 📬 Contact Form Setup (EmailJS)
-
-To enable the contact form with your own email:
-
-1. Create a free account at [emailjs.com](https://emailjs.com)
-2. Add your email service and create a template with fields: `from_name`, `reply_to`, `message`
-3. Replace the credentials in `src/pages/Contact.jsx`:
-
-```js
-emailjs.sendForm(
-  "YOUR_SERVICE_ID",
-  "YOUR_TEMPLATE_ID",
-  form.current,
-  "YOUR_PUBLIC_KEY"
-)
-```
-
----
-
-## 🎨 Customization
-
-All colors are centralized in `src/style.css`:
-
-```css
-html {
-  --imp-text-color: #b8860b;       /* gold accent */
-  --imp-bold-text-color: #b8860b;  /* gold bold */
-}
-body {
-  background-color: #fdf8e1;       /* cream background */
-}
-```
-
-Change these two values to completely retheme the portfolio.
-
----
-
-## 📄 License
-
-This project is open source under the [MIT License](LICENSE).
-
----
 
 <div align="center">
 
-### 🤝 Connect with me
+###  Connect with me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/asskour-mohamed)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/asskourmohamed)
@@ -199,8 +156,8 @@ This project is open source under the [MIT License](LICENSE).
 
 <br/>
 
-⭐ **If you find this portfolio useful, give it a star!** ⭐
+ **If you find this portfolio useful, give it a star!** 
 
-<h2>🧠 Happy Hacking 🧠</h2>
+<h2> Happy Hacking </h2>
 
 </div>
