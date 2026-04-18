@@ -14,7 +14,7 @@
 <div align="center">
 
 <!-- Replace with your actual screenshot -->
-![Portfolio Preview](https://drive.google.com/file/d/19PQCB7eSoXRqcN6Xf9cHETqxz-AuTZKr/view?usp=sharing)
+![Portfolio Preview](https://ibb.co/HTWhksPY)
 
 </div>
 
