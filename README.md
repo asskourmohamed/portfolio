@@ -14,7 +14,7 @@
 <div align="center">
 
 <!-- Replace with your actual screenshot -->
-**Portfolio Preview**<a href="https://ibb.co/HTWhksPY"><img src="https://i.ibb.co/3mDRLqFW/port.png" alt="port"  /></a>
+<a href="https://ibb.co/HTWhksPY"><img src="https://i.ibb.co/3mDRLqFW/port.png" alt="port"  /></a>
 
 </div>
 
