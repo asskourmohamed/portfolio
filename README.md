@@ -14,7 +14,7 @@
 <div align="center">
 
 <!-- Replace with your actual screenshot -->
-![Portfolio Preview](https://i.ibb.co/your-screenshot-id/portfolio-preview.png)
+![Portfolio Preview](https://drive.google.com/file/d/19PQCB7eSoXRqcN6Xf9cHETqxz-AuTZKr/view?usp=sharing)
 
 </div>
 
